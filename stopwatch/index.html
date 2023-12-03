@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Basic Metas -->
+	<meta charset="utf-8">
+	<title>Stopwatch</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon"  href="assets/imgs/favicon.png">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+	<!-- G Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<div class="card">
+			<header>Stopwatch</header>
+			<div class="circle">
+				<div class="inner-circle">
+					<h1 id="hours">00</h1><h1>:</h1>
+					<h1 id="mins">00</h1><h1>:</h1>
+					<h1 id="secs">00</h1><h1>:</h1>
+					<h1 id="ms">000</h1>
+				</div>
+			</div>
+			<div class="btns">
+				<button class="btn" onclick="startTimer(this)" id="start">Start</button>
+				<button class="btn stop-btn" onclick="resetTimer(this)">Reset</button>
+			</div>
+		</div>
+		<footer class="copyrights">
+			Created with ❤ by: Sahil Parray
+		</footer>
+	</main>
+	<!-- JS -->
+	<script src="assets/js/main.js"></script>
+</body>
+</html>

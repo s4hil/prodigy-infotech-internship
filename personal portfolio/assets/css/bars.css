@@ -1,0 +1,34 @@
+:root{
+	--htmlcss: 90%;
+	--js: 70%;
+	--php: 65%;
+	--py: 37%;
+	--mysql: 35%;
+	--cpp: 35%;
+}
+
+.php {
+	width: var(--php);
+}
+.mysql {
+	width: var(--mysql);
+}
+.js {
+	width: var(--js);
+}
+.py {
+	width: var(--py);
+}
+.htmlcss {
+	width: var(--htmlcss);
+}
+.cpp {
+	width: var(--cpp);
+}
+
+
+
+.php, .mysql, .js, .py, .htmlcss, .cpp {
+	height: 100%;
+	background-color: #4ecca3;
+}
